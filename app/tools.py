@@ -1,5 +1,5 @@
 from langchain.tools import tool
-from rag_engine import get_retriever
+from app.rag_engine import get_retriever
 retriever = get_retriever()
 @tool
 def search_company_policy(query: str, limit: int = 10) -> str:

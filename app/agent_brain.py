@@ -1,7 +1,7 @@
 from langchain.agents import create_agent
 from langchain_openai import ChatOpenAI
-from tools import tools
-from models import ResponseFromLLM
+from app.tools import tools
+from app.models import ResponseFromLLM
 import os
 model = ChatOpenAI(model = "gpt-4o-mini", api_key=os.getenv("OPENAI_API_KEY"))
 

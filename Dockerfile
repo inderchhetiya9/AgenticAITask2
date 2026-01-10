@@ -1,19 +1,19 @@
 # Use official Python runtime
 FROM python:3.11-slim
 
-# Set the working directory inside the container
+# Set the working directory to /app
 WORKDIR /app
 
 # Copy requirements and install dependencies
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the entire project code (including app/, faiss_index/, etc.)
+# Copy everything (main.py, agent_brain.py, faiss_index, etc.) to /app
 COPY . .
 
-# Expose the port the app runs on
+# Expose the port
 EXPOSE 8000
 
 # Command to run the application
-# Adjust "app.main:app" if your main file is named differently
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
+# Since main.py is right here, we just call "main:app"
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]

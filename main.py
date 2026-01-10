@@ -1,10 +1,10 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from typing import Optional, List
-from agent_brain import get_agent_response
-from rag_engine import ingest_documents
+from app.agent_brain import get_agent_response
+from app.rag_engine import ingest_documents
 import os
-from models import QueryRequest, ResponseFromLLM
+from app.models import QueryRequest, ResponseFromLLM
 app = FastAPI(title="AI Agent API")
 
 # --- Endpoints ---
