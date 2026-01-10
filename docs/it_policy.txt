@@ -1,0 +1,7 @@
+IT Security Policy:
+Passwords must be changed every 90 days.
+Two‑factor authentication is mandatory.
+
+
+Data Access Policy:
+Confidential data must not be shared externally.
