@@ -75,8 +75,8 @@ cd AgenticAITask2
 Create a `.env` file in the root directory:
 
 ```env
-OPENAI_API_KEY=sk-proj-your-key-here
-ACR_PASSWORD=your-azure-registry-password
+OPENAI_API_KEY="sk-proj-your-key-here"
+ACR_PASSWORD="your-azure-registry-password"
 ENVIRONMENT_ID=/subscriptions/.../managedEnvironments/ai-agent-env
 
 ```
@@ -196,7 +196,8 @@ envsubst < containerapp.template.yaml | az containerapp update \
 ├── app/                 # Source code (moved to root in Docker)
 │   ├── agent_brain.py   # LangChain agent definition
 │   ├── rag_engine.py    # Vector store & retrieval logic
-│   └── tools.py         # Custom tool definitions
+│   ├── tools.py         # Custom tool definitions
+│   └── models.py        # Models used in the project
 ├── docs/                # Knowledge base documents (PDFs)
 ├── faiss_index/         # Pre-computed vector embeddings
 ├── containerapp.template.yaml  # Deployment config template
