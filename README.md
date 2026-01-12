@@ -25,11 +25,11 @@ The system follows a modular "Router-Retriever" architecture:
 ```mermaid
 graph TD
     User[User] -->|POST /ask| API[FastAPI Backend]
-    API --> Agent[Agent Brain (LangChain)]
-    Agent -->|Router Logic| Decision{Context Needed?}
-    Decision -- No --> LLM[GPT-4o-mini Direct Answer]
-    Decision -- Yes --> Tool[Retriever Tool]
-    Tool -->|Search| DB[(FAISS Vector DB)]
+    API --> Agent["Agent Brain (LangChain)"]
+    Agent -->|Router Logic| Decision{"Context Needed?"}
+    Decision -- No --> LLM["GPT-4o Direct Answer"]
+    Decision -- Yes --> Tool["Retriever Tool"]
+    Tool -->|Search| DB[("FAISS Vector DB")]
     DB -->|Context| Tool
     Tool -->|Context + Query| LLM
     LLM -->|Final Response| API
