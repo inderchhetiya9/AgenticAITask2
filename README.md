@@ -10,7 +10,7 @@ The system follows a modular "Router-Retriever" architecture:
 
 1. **API Layer (FastAPI):** Exposes a RESTful endpoint (`POST /ask`) to accept user queries.
 2. **Agent Brain (LangChain):** Uses an LLM to analyze the intent of the query.
-* *General Query?* → Answers directly using GPT-4o.
+* *General Query?* → Answers directly using GPT-4o-mini.
 * *Specific Query?* → Calls the **Retriever Tool**.
 
 
@@ -27,7 +27,7 @@ graph TD
     User[User] -->|POST /ask| API[FastAPI Backend]
     API --> Agent[Agent Brain (LangChain)]
     Agent -->|Router Logic| Decision{Context Needed?}
-    Decision -- No --> LLM[GPT-4o Direct Answer]
+    Decision -- No --> LLM[GPT-4o-mini Direct Answer]
     Decision -- Yes --> Tool[Retriever Tool]
     Tool -->|Search| DB[(FAISS Vector DB)]
     DB -->|Context| Tool
@@ -45,7 +45,7 @@ graph TD
 | **Language** | Python 3.11 | Core logic and scripting. |
 | **Framework** | FastAPI | High-performance async API backend. |
 | **Orchestration** | LangChain | Agent logic, tool calling, and chain management. |
-| **LLM** | OpenAI (GPT-4o) | Reasoning and response generation. |
+| **LLM** | OpenAI (GPT-4o-mini) | Reasoning and response generation. |
 | **Vector DB** | FAISS | Local efficient similarity search for RAG. |
 | **Deployment** | Docker | Containerization for consistent runtime. |
 | **Cloud** | Azure Container Apps | Serverless container hosting. |
