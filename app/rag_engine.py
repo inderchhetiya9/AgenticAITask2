@@ -1,15 +1,17 @@
 import os
 from langchain_community.document_loaders import PyPDFLoader, TextLoader
 from langchain_text_splitters import CharacterTextSplitter
-from langchain_openai import OpenAIEmbeddings, AzureOpenAIEmbeddings
+from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import FAISS
 from dotenv import load_dotenv
+
 load_dotenv()
 # Toggle this for Azure vs Standard OpenAI
-# embedding_model = AzureOpenAIEmbeddings(...) 
+# embedding_model = AzureOpenAIEmbeddings(...)
 embedding_model = OpenAIEmbeddings(api_key=os.getenv("OPENAI_API_KEY"))
 
 VECTOR_STORE_PATH = "faiss_index"
+
 
 def ingest_documents(file_paths):
     """
@@ -32,12 +34,15 @@ def ingest_documents(file_paths):
     vector_store.save_local(VECTOR_STORE_PATH)
     print(f"Stored {len(docs)} chunks in FAISS.")
 
+
 def get_retriever():
     """
     Returns the vector store as a retriever for the Agent.
     """
     if os.path.exists(VECTOR_STORE_PATH):
-        vector_store = FAISS.load_local(VECTOR_STORE_PATH, embedding_model, allow_dangerous_deserialization=True)
+        vector_store = FAISS.load_local(
+            VECTOR_STORE_PATH, embedding_model, allow_dangerous_deserialization=True
+        )
         return vector_store.as_retriever(search_kwargs={"k": 3})
     else:
         raise ValueError("Vector store not found. Please ingest documents first.")

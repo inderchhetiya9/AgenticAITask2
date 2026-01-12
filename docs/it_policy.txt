@@ -1,7 +1,273 @@
-IT Security Policy:
-Passwords must be changed every 90 days.
-Two‑factor authentication is mandatory.
+# COMPREHENSIVE INFORMATION TECHNOLOGY & SECURITY POLICY
 
+**Version:** 1.0
+**Effective Date:** 12 January 2026
+**Document Control Number:** ITP-2026-Global
+**Owner:** Chief Information Officer (CIO) / IT Steering Committee
 
-Data Access Policy:
-Confidential data must not be shared externally.
+---
+
+## TABLE OF CONTENTS
+
+1. **Governance and Administration**
+2. **Asset Management**
+3. **Identity and Access Management (IAM)**
+4. **Acceptable Use Policy (AUP)**
+5. **Information Security & Data Protection**
+6. **Network and Operations Security**
+7. **Remote Work and Mobile Device Management (MDM)**
+8. **Incident Response and Business Continuity**
+9. **Compliance and Legal**
+10. **Enforcement and Disciplinary Action**
+
+---
+
+## 1. GOVERNANCE AND ADMINISTRATION
+
+### 1.1 Purpose
+
+The purpose of this Information Technology (IT) Policy is to establish a framework for the secure, efficient, and ethical use of [Company Name]’s technology resources. This policy aims to protect the confidentiality, integrity, and availability of the Company’s data and infrastructure while ensuring compliance with applicable laws, including but not limited to GDPR, CCPA, and relevant industry standards (e.g., ISO 27001, SOC 2).
+
+### 1.2 Scope
+
+This policy applies to:
+
+* **Personnel:** All employees, contractors, consultants, temporary staff, and board members.
+* **Assets:** All computer systems, software, networks, data, mobile devices, and physical infrastructure owned, leased, or managed by [Company Name].
+* **Third Parties:** Any external vendor or partner accessing the Company’s systems.
+
+### 1.3 Roles and Responsibilities
+
+* **Chief Information Officer (CIO):** Ultimate accountability for the IT strategy and security posture.
+* **IT Department:** Responsible for implementation, maintenance, and monitoring of IT controls.
+* **Human Resources (HR):** Responsible for enforcing disciplinary actions related to policy violations.
+* **Employees:** Responsible for reading, understanding, and adhering to this policy annually.
+
+### 1.4 Policy Review
+
+This document shall be reviewed annually by the IT Steering Committee. Ad-hoc reviews will occur following significant security incidents or changes in the regulatory environment.
+
+---
+
+## 2. ASSET MANAGEMENT
+
+### 2.1 Asset Inventory
+
+The IT Department shall maintain a centralized, up-to-date inventory of all hardware and software assets (Asset Register).
+
+* **Tagging:** All physical hardware (laptops, servers, networking gear) must be physically tagged with a unique asset ID.
+* **Lifecycle:** The lifecycle of an asset (Acquisition -> Deployment -> Maintenance -> Disposal) must be tracked in the Asset Register.
+
+### 2.2 Hardware Acquisition
+
+All IT hardware procurement must be centralized through the IT Department. Employees are strictly prohibited from purchasing IT equipment for business use without prior written approval from the CIO.
+
+### 2.3 Software Licensing
+
+[Company Name] strictly prohibits the use of unlicensed or pirated software.
+
+* **Authorized List:** Only software listed in the "Approved Software Catalog" may be installed on company devices.
+* **Audits:** The IT Department will conduct automated monthly scans to detect unauthorized software. Found instances will be automatically removed, and the user flagged for review.
+
+### 2.4 Asset Disposal (Secure Deletion)
+
+Devices reaching end-of-life must undergo secure data sanitization before disposal or resale.
+
+* **Storage Media:** Hard drives and storage media must be wiped using NIST 800-88 compliant standards (e.g., 3-pass overwrite) or physically destroyed (shredded).
+
+---
+
+## 3. IDENTITY AND ACCESS MANAGEMENT (IAM)
+
+### 3.1 Principle of Least Privilege
+
+Access to systems and data is granted solely on a "need-to-know" and "need-to-do" basis. Users shall only have the minimum level of access required to perform their job functions.
+
+### 3.2 User Account Management
+
+* **Onboarding:** Accounts are created only upon receipt of a formal request from HR verifying employment start date and role.
+* **Offboarding:** Access for terminated employees must be revoked **immediately** (within 1 hour of termination notice) for high-risk accounts and within 24 hours for standard accounts.
+
+### 3.3 Password Policy
+
+To protect user identities, the following password standards apply to all systems:
+
+* **Complexity:** Minimum 12 characters, including uppercase, lowercase, numbers, and special characters.
+* **History:** Users cannot reuse the last 10 passwords.
+* **Age:** Passwords for privileged accounts (Admins) expire every 90 days.
+* **MFA:** Multi-Factor Authentication (MFA) is **mandatory** for all remote access, email access, and critical system logins.
+
+### 3.4 Privileged Access Management (PAM)
+
+* Administrative accounts must not be used for daily tasks (e.g., email, web browsing).
+* All administrative actions are logged and subject to audit.
+
+---
+
+## 4. ACCEPTABLE USE POLICY (AUP)
+
+### 4.1 General Use
+
+IT resources are provided for business purposes. Incidental personal use is permitted provided it does not:
+
+* Interfere with worker productivity.
+* Violate any company policy or law.
+* Consume excessive network bandwidth (e.g., streaming 4K video non-work related).
+
+### 4.2 Prohibited Activities
+
+The following activities are strictly prohibited on [Company Name] systems:
+
+* **Illegal Activities:** Engaging in any activity that violates local, state, federal, or international law.
+* **Harassment:** Sending offensive, harassing, or discriminatory messages/content.
+* **Unauthorized Scanning:** Port scanning, packet sniffing, or network mapping without explicit authorization from the CISO.
+* **Crypto-mining:** Using company hardware to mine cryptocurrency.
+* **Circumvention:** Attempting to bypass network security controls, firewalls, or web filters.
+
+### 4.3 Email Security
+
+* **Phishing:** Users must report suspicious emails immediately via the "Report Phishing" button.
+* **Attachments:** Users must not open attachments from unknown sources.
+* **Auto-Forwarding:** Auto-forwarding of company email to external personal accounts (e.g., Gmail, Yahoo) is blocked and prohibited.
+
+### 4.4 Social Media
+
+Employees must not post confidential company information, intellectual property, or disparaging remarks about the company or clients on social media. When posting professionally, employees should clarify they are speaking for themselves, not the company, unless authorized.
+
+---
+
+## 5. INFORMATION SECURITY & DATA PROTECTION
+
+### 5.1 Data Classification
+
+All data created or handled by [Company Name] must be classified into one of the following categories:
+
+* **Public:** Information intended for public release (e.g., press releases).
+* **Internal:** Information for employee use (e.g., org charts, policies).
+* **Confidential:** Sensitive business data (e.g., pricing, strategy, code).
+* **Restricted/PII:** Highly sensitive data requiring strict legal protection (e.g., SSNs, credit card numbers, health records).
+
+### 5.2 Encryption
+
+* **Data at Rest:** All laptops, mobile devices, and servers storing Confidential or Restricted data must use full-disk encryption (e.g., BitLocker, FileVault).
+* **Data in Transit:** All data transmitted over public networks must use strong encryption protocols (TLS 1.2 or higher).
+
+### 5.3 Clean Desk / Clean Screen
+
+* **Physical:** Confidential documents must not be left unattended on desks. They must be locked in drawers when the employee is away.
+* **Digital:** Workstations must automatically lock after 5 minutes of inactivity. Users must manually lock screens (Windows + L) when stepping away.
+
+### 5.4 Third-Party Data Sharing
+
+No Confidential or Restricted data may be shared with a third-party vendor without a signed Non-Disclosure Agreement (NDA) and a completed Vendor Risk Assessment (VRA).
+
+---
+
+## 6. NETWORK AND OPERATIONS SECURITY
+
+### 6.1 Network Access Control (NAC)
+
+Only authorized devices meeting security compliance standards (antivirus installed, OS patched) may connect to the corporate network. Guest Wi-Fi must be strictly isolated from the internal production network.
+
+### 6.2 Vulnerability Management
+
+* **Scanning:** The IT team will perform weekly vulnerability scans on all external-facing IPs and monthly scans on internal subnets.
+* **Patching:** Critical security patches must be applied within 72 hours of release. Non-critical patches must be applied within 30 days.
+
+### 6.3 Backup and Recovery
+
+* **Frequency:** Critical data must be backed up daily.
+* **Storage:** Backups must be stored in an immutable format to prevent ransomware encryption.
+* **Testing:** Restoration from backup must be tested quarterly to ensure data integrity.
+
+---
+
+## 7. REMOTE WORK AND MOBILE DEVICE MANAGEMENT (MDM)
+
+### 7.1 Remote Access
+
+* **VPN:** Access to internal resources from outside the office must be conducted via the corporate Virtual Private Network (VPN) or Zero Trust Network Access (ZTNA) solution.
+* **Public Wi-Fi:** The use of open, unsecured public Wi-Fi hotspots for business work is prohibited unless a VPN is active.
+
+### 7.2 Bring Your Own Device (BYOD)
+
+Employees wishing to use personal mobile devices for email or Teams access must enroll in the Company MDM solution (e.g., Intune, Jamf).
+
+* **Containerization:** The MDM will create a secure "work profile" on the device.
+* **Remote Wipe:** The Company reserves the right to remotely wipe corporate data from the device if it is lost, stolen, or if the employee is terminated. (Note: The Company will aim to wipe only the work profile, not personal data, where technically feasible).
+
+---
+
+## 8. INCIDENT RESPONSE
+
+### 8.1 Reporting
+
+Any user who suspects a security incident (e.g., lost laptop, clicked phishing link, ransomware popup) must report it **immediately** to the IT Service Desk or via the Emergency Hotline. **There is no penalty for reporting a mistake in good faith.**
+
+### 8.2 Response Phases
+
+The Incident Response Team (IRT) shall follow the standard phases:
+
+1. **Preparation:** Training and tooling.
+2. **Identification:** Determining if an incident occurred.
+3. **Containment:** Isolating affected systems to prevent spread.
+4. **Eradication:** Removing the threat (malware, unauthorized account).
+5. **Recovery:** Restoring data and verifying integrity.
+6. **Lessons Learned:** Post-incident review to update policies.
+
+---
+
+## 9. COMPLIANCE
+
+### 9.1 Intellectual Property (IP)
+
+All data, software, designs, and documentation created by employees during work hours or using company assets are the exclusive property of [Company Name].
+
+### 9.2 Privacy Compliance (GDPR/CCPA)
+
+* **Data Subject Rights:** The Company has procedures to handle requests for data access, correction, or deletion (Right to be Forgotten) within statutory timeframes (usually 30 days).
+* **Data Minimization:** We shall collect only the minimum amount of personal data necessary for the specified purpose.
+
+---
+
+## 10. ENFORCEMENT
+
+### 10.1 Monitoring and Privacy
+
+[Company Name] reserves the right to monitor, filter, access, review, and record all data transmitted or stored on company systems to ensure compliance with this policy. **Employees should have no expectation of privacy when using company information systems.**
+
+### 10.2 Disciplinary Action
+
+Violations of this policy will be investigated by HR and IT. Consequences may include:
+
+* Verbal or written warning.
+* Revocation of system access.
+* Termination of employment.
+* Civil or criminal prosecution for illegal activities.
+
+### 10.3 Exceptions
+
+Exceptions to this policy must be formally documented and approved by the CISO or CIO via a "Risk Acceptance Form."
+
+---
+
+## APPENDIX A: REQUIRED PROCEDURAL DOCUMENTS (For Expansion)
+
+*To reach the full depth of a 10,000-word policy suite, the following procedural documents must be drafted and attached:*
+
+1. **The Password Construction Standard:** (Detailed rules on entropy and rotation).
+2. **The Data Retention Schedule:** (Specific years to keep emails, financial records, etc. by jurisdiction).
+3. **The Disaster Recovery Plan (DRP):** (Technical runbooks for restoring servers).
+4. **The Vendor Risk Management Framework:** (Questionnaires for new software vendors).
+5. **The Employee Exit Checklist:** (Step-by-step for HR/IT during termination).
+6. **Cloud Security Standards:** (Configuration rules for AWS/Azure/GCP).
+7. **Software Development Lifecycle (SDLC) Policy:** (Security requirements for code changes).
+
+---
+
+## ACKNOWLEDGMENT
+
+I, ___________________________, acknowledge that I have received, read, and understood the [Company Name] IT Policy. I agree to abide by the terms and understand the consequences of non-compliance.
+
+**Signature:** __________________________
+**Date:** _____________________________

@@ -1,12 +1,212 @@
-Company Leave Policy:
-Employees are entitled to 20 paid leaves per year.
-Unused leaves cannot be carried forward.
+GLOBAL EMPLOYEE HANDBOOK & HR POLICY MANUAL
+Version: 2.0 Effective Date: January 12, 2026 Document Control Number: HR-POL-2026-Global Owner: Chief Human Resources Officer (CHRO) Applicability: All Employees, Contractors, and Interns
 
+TABLE OF CONTENTS
+Introduction & Employment at Will
 
-Work From Home Policy:
-Employees may work from home up to 2 days per week with manager approval.
+Equal Opportunity, Diversity, & Inclusion
 
+Employment Classifications & Staffing
 
-Code of Conduct:
-Employees must maintain professional behavior at all times.
-Violation may lead to disciplinary action.
+Workplace Conduct & Ethics (Code of Conduct)
+
+Compensation & Payroll
+
+Time Off, Leave, and Attendance
+
+Benefits & Perks
+
+Performance Management & Development
+
+Health, Safety, & Environment
+
+Separation of Employment
+
+1. INTRODUCTION
+1.1 Welcome Statement
+Welcome to [Company Name]. This Employee Handbook is designed to acquaint you with the Company and provide you with information about working conditions, employee benefits, and some of the policies affecting your employment.
+
+1.2 Nature of Employment (At-Will Disclaimer)
+Note: This clause is standard for US-based entities. Adjust for UK/EU/India contracts. Employment with [Company Name] is "at-will." This means that either the employee or the Company may terminate the employment relationship at any time, with or without cause, and with or without advance notice (subject to applicable local laws). No manager or representative of the Company, other than the CEO, has the authority to enter into any agreement for employment for any specified period of time.
+
+1.3 Policy Authority
+The Company reserves the right to revise, supplement, or rescind any policies or portions of the Handbook from time to time as it deems appropriate, in its sole and absolute discretion.
+
+2. EQUAL OPPORTUNITY & ANTI-HARASSMENT
+2.1 Equal Employment Opportunity (EEO)
+[Company Name] is committed to providing equal employment opportunities to all employees and applicants without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, genetic information, or veteran status. This policy applies to all terms and conditions of employment, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training.
+
+2.2 Anti-Harassment and Anti-Discrimination
+The Company strictly prohibits harassment of any kind.
+
+Sexual Harassment: Includes unwelcome sexual advances, requests for sexual favors, and other verbal or physical conduct of a sexual nature.
+
+Hostile Work Environment: Conduct that creates an intimidating, hostile, or offensive working environment.
+
+2.3 Complaint Procedure
+If you believe you have been subjected to discrimination or harassment:
+
+Direct Communication: If comfortable, tell the offender that their behavior is unwelcome and must stop.
+
+Report: Immediately report the incident to your direct supervisor or the HR Department.
+
+Investigation: HR will conduct a prompt, impartial, and thorough investigation.
+
+No Retaliation: The Company strictly prohibits retaliation against any employee who reports harassment in good faith.
+
+3. EMPLOYMENT CLASSIFICATIONS
+3.1 Classifications
+Regular Full-Time: Employees scheduled to work [40] hours per week. Eligible for full benefits.
+
+Regular Part-Time: Employees scheduled to work less than [30] hours per week. Benefits eligibility may vary.
+
+Temporary/Contract: Hired for a specific project or limited period. Not eligible for standard company benefits unless specified.
+
+3.2 Exempt vs. Non-Exempt
+Exempt (Salaried): Employees holding positions that meet specific tests established by labor laws (e.g., Executive, Administrative, Professional). They are paid a salary and are not eligible for overtime pay.
+
+Non-Exempt (Hourly): Employees eligible for overtime pay for hours worked in excess of 40 hours per workweek (or as defined by local law).
+
+3.3 Background Checks
+All offers of employment are contingent upon the satisfactory completion of a background check, which may include criminal history, education verification, and credit history (where relevant to the role).
+
+4. WORKPLACE CONDUCT (CODE OF CONDUCT)
+4.1 Professionalism
+Employees are expected to conduct themselves in a professional manner. Insubordination, aggressive behavior, or conduct that damages the Company’s reputation will not be tolerated.
+
+4.2 Attendance and Punctuality
+Notification: If you are unable to report to work, you must notify your direct supervisor no later than 1 hour before your scheduled start time.
+
+Job Abandonment: Absence for three (3) consecutive days without notifying a supervisor is considered voluntary resignation.
+
+4.3 Dress Code
+The Company adopts a "Dress for Your Day" policy.
+
+Client Facing: Business Professional (Suits, ties, blazers).
+
+Office/Remote: Business Casual or Smart Casual.
+
+Prohibited: Clothing with offensive slogans, ripped attire, or beachwear.
+
+4.4 Conflicts of Interest & Moonlighting
+Employees must avoid situations where their personal interests conflict with the Company’s interests.
+
+Outside Employment: Permitted only if it does not interfere with job performance or pose a conflict of interest (e.g., working for a competitor).
+
+Gifts: Employees may not accept gifts valued over $50 from clients or vendors without disclosure to HR.
+
+4.5 Substance-Free Workplace
+The possession, use, sale, or being under the influence of illegal drugs or alcohol while on Company premises or conducting Company business is strictly prohibited and grounds for immediate termination.
+
+5. COMPENSATION
+5.1 Pay Periods
+Employees are paid on a [Bi-Weekly / Monthly] basis. If a payday falls on a holiday or weekend, payment is made on the preceding business day.
+
+5.2 Overtime (Non-Exempt Only)
+All overtime work must be pre-approved by a manager in writing.
+
+Overtime is paid at 1.5 times the regular hourly rate for hours worked over 40 in a workweek.
+
+"Off-the-clock" work is strictly prohibited for non-exempt employees.
+
+5.3 Expense Reimbursement
+The Company reimburses reasonable business expenses (travel, meals with clients).
+
+Receipts must be submitted within 30 days of the expense.
+
+Alcohol is generally not reimbursable unless at a sanctioned client event.
+
+6. TIME OFF AND LEAVE
+6.1 Paid Time Off (PTO) / Annual Leave
+Accrual: Full-time employees accrue [X] days of PTO per year.
+
+Carryover: A maximum of [X] days may be carried over to the next calendar year.
+
+Approval: PTO requests must be submitted at least 2 weeks in advance for vacations longer than 3 days.
+
+6.2 Sick Leave
+Employees are granted [X] days of paid sick leave per year. A doctor’s note may be required for absences exceeding 3 consecutive days.
+
+6.3 Holidays
+The Company observes the following holidays (examples):
+
+New Year’s Day
+
+Memorial Day
+
+Independence Day
+
+Labor Day
+
+Thanksgiving Day & Day After
+
+Christmas Day
+
+6.4 Parental Leave
+[Company Name] provides [X] weeks of paid parental leave for the birth, adoption, or foster placement of a child. This runs concurrently with FMLA (in the US) or relevant statutory leave.
+
+6.5 Bereavement Leave
+Employees are allowed up to [3] days of paid leave in the event of the death of an immediate family member.
+
+7. PERFORMANCE & DEVELOPMENT
+7.1 Performance Reviews
+Formal performance reviews are conducted annually. These reviews determine salary adjustments, promotions, and development goals.
+
+7.2 Performance Improvement Plan (PIP)
+If an employee is underperforming, management may place them on a PIP. This is a formal document outlining specific goals to be met within a set timeframe (usually 30-60 days). Failure to meet PIP goals may result in termination.
+
+7.3 Training and Education
+The Company encourages professional development. We offer a tuition reimbursement program of up to $[Amount] per year for courses directly related to the employee’s current role, subject to prior approval.
+
+8. HEALTH, SAFETY, AND DATA PRIVACY
+8.1 Workplace Safety
+[Company Name] complies with all Occupational Safety and Health Administration (OSHA) regulations.
+
+Employees must report all workplace injuries immediately, no matter how minor.
+
+Fire exits and emergency equipment must remain unobstructed.
+
+8.2 Workplace Violence
+Zero tolerance policy. Any threats, physical aggression, or possession of weapons on company property will result in immediate termination and law enforcement involvement.
+
+8.3 Data Privacy & Social Media
+Confidentiality: Employees must not disclose sensitive company data (financials, client lists) to anyone outside the company.
+
+Social Media: Employees are personally responsible for what they post. You may not claim to represent the Company’s official views unless authorized. (See IT Policy for details).
+
+9. SEPARATION OF EMPLOYMENT
+9.1 Resignation
+Employees are requested to provide at least two weeks' written notice of resignation. Executives are requested to provide four weeks' notice.
+
+9.2 Termination
+For Cause: Immediate termination for policy violations (theft, harassment, fraud).
+
+Layoff/Redundancy: Termination due to lack of work or restructuring.
+
+9.3 Return of Property
+On or before the last day of work, employees must return all Company property, including laptops, badges, keys, credit cards, and files.
+
+9.4 Exit Interview
+HR typically conducts an exit interview to discuss the reasons for departure and explain the continuation of benefits (COBRA, etc.).
+
+APPENDIX: PROCEDURAL DOCUMENTS (For Expansion)
+To achieve the full 10,000-word scope, the following Standard Operating Procedures (SOPs) must be drafted and attached as appendices:
+
+Recruitment & Hiring Guide: (Detailed steps on posting jobs, interviewing do's and don'ts, and offer letter templates).
+
+The Remote Work Agreement: (Specifics on home office setups, stipends, and availability hours).
+
+Travel & Expense Policy: (Detailed list of per diems, flight classes allowed, and mileage rates).
+
+Disciplinary Action Matrix: (A grid showing Step 1: Verbal Warning, Step 2: Written Warning, etc.).
+
+Leave of Absence Request Forms: (FMLA forms, Medical certification templates).
+
+Substance Abuse Testing Procedures: (Protocols for reasonable suspicion testing).
+
+Relocation Policy: (Allowances for moving employees to new locations).
+
+EMPLOYEE ACKNOWLEDGMENT
+I acknowledge that I have received a copy of the [Company Name] Employee Handbook. I understand that it is my obligation to read and comply with the policies contained herein. I further understand that this Handbook is not a contract of employment and that my employment is at-will.
+
+Employee Name (Print): ___________________________ Signature: ______________________________________ Date: _________________________________________

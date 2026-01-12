@@ -1,0 +1,32 @@
+# containerapp.template.yaml
+location: eastus
+name: ai-agent-app
+resourceGroup: ai-agent-rg
+type: Microsoft.App/containerApps
+properties:
+  environmentId: $ENVIRONMENT_ID
+  configuration:
+    activeRevisionsMode: Single
+    ingress:
+      external: true
+      targetPort: 8000
+    registries:
+      - server: myaiagentregistry.azurecr.io
+        username: myaiagentregistry
+        passwordSecretRef: acr-password
+    secrets:
+      # We use placeholders starting with $ here
+      - name: acr-password
+        value: $ACR_PASSWORD
+      - name: openai-key
+        value: $OPENAI_API_KEY
+  template:
+    containers:
+      - name: ai-agent-app
+        image: myaiagentregistry.azurecr.io/ai-agent:v4
+        resources:
+          cpu: 1.0
+          memory: 2.0Gi
+        env:
+          - name: OPENAI_API_KEY
+            secretRef: openai-key
